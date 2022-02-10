@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: black;
+  background-size: cover;
+}
+.biodata{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+header{
+    background-color: rgb(31, 30, 30);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  .judul{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    font-family: 'Secular One', sans-serif;
+    margin-right: 470px;
+  }
+  .list{
+    display: flex;
+    align-items: center;
+  }
+  .list li{
+    display: flex;
+  }
+  .list li a{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+    font-family: 'Secular One', sans-serif;
+  }
+  .list li a:hover{
+    background-color: rgb(51, 50, 50);
+    color: white;
+     }
+
+.kotak{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.beunget{
+  width: 400px;
+  height: 350px;
+  transition: 0.5s;
+}
+.beunget:hover{
+  transform: scale(1.05);
+}
+.text{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Architects Daughter', cursive;
+}
+.hardolin{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.hardolin:hover{
+  opacity: 0.5;
+}
+.ht{
+  color: red;
+  text-decoration: none;
+}
+.ht:hover{
+  opacity: 0.5;
+}
+.cs{
+  color: rgb(25, 25, 255);
+  text-decoration: none;
+}
+.cs:hover{
+  opacity: 0.5;
+}
+.bdg{
+  color: rgb(25, 25, 255) ;
+  text-decoration: none;
+}
+.bdg:hover{
+  opacity: 0.5;
+}
+.logokontak{
+  font-size: 80px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.email{
+  font-size: 70px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.kotak2{
+  background-color: rgb(51, 50, 50);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.text3{
+  font-size: 33px;
+  margin-top: 26px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Architects Daughter', cursive;
+}
+.wa:hover{
+  color: rgb(27, 230, 27);
+  transform: scale(1.15);
+}
+.wa{
+  transition: 0.5s;
+}
+.imel{
+  transition: 0.5s;
+}
+.imel:hover{
+  color: rgb(56, 125, 255);
+  transform: scale(1.15);
+}
+.contact .row{
+  display: flex;
+  background:var(--black);
+  flex-wrap: wrap;
+  gap:1rem;
+}
+
+.contact .row .map{
+  flex:1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form{
+  flex:1 1 45rem;
+  padding:5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color:#fff;
+}
+
+.contact .row form .inputBox{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background:var(--bg);
+  border:var(--border);
+}
+
+.contact .row form .inputBox span{
+  color:#fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+  width: 100%;
+  padding:2rem;
+  font-size: 1.7rem;
+  color:#fff;
+  text-transform: none;
+  background:none;
+}
