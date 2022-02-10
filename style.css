@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(51, 50, 50);
+}
+header{
+  background-color: rgb(31, 30, 30);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navigasi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.judul{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+  font-family: 'Mulish', sans-serif;
+  margin-right: 470px;
+}
+.list{
+  display: flex;
+  align-items: center;
+}
+.list li{
+  display: flex;
+}
+.list li a{
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  transition: 0.5s;
+  font-family: 'Secular One', sans-serif;
+}
+.list li a:hover{
+  background-color: rgb(51, 50, 50);
+  color: white;
+}
+.gambar{
+  background-image: url(smk1.jpg);
+  background-size: cover;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selamat{
+  display: flex;
+}
+
+.selamatdatang{
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 35px;
+  margin-top: 75px;
+  font-weight: bolder;
+  transition: 0.5s;
+  font-family: 'Mulish', sans-serif;
+}
+.selamatdatang:hover{
+  transform: scale(1.05);
+}
+.gambartulisan:hover{
+  transform: scale(1.05);
+}
+.gambarnama{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 80px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+.kotak1{
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  border: 20px;
+  margin: 15px;
+  border-radius: 20px;
+}
+.kotak1judul{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+}
+.samlekom{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.kotak1bacotan{
+  font-family: sans-serif;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'Luxurious Roman', cursive;
+}
+.kotak2{
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 35px;
+}
+.kotak2judul{
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 255, 250);
+}
+.kotak2dalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.yadika1{
+  height: 170px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.yadika1:hover{
+  transform: scale(1.05);
+}
+.kotak2dalamdalam{
+  margin-left: 20px;
+}
+.kotak2bacotan{
+  color: rgb(255, 255, 249);
+  font-family: 'Luxurious Roman', cursive;
+  margin-left: 30px;
+}
+.selanjutnya{
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  margin-left: 30px;
+}
+.disini{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgb(63, 61, 61);
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+  transition: 0.5s;
+  margin-left: 30px;
+}
+.disini:hover{
+  background-color: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+}
+.kotak3{
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 35px;
+}
+.kotak3judul{
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Secular One', sans-serif;
+}
+.kotak3dalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kotak3dalamdalam{
+  margin-left: 20px;
+}
+.kotak3bacotan{
+  color: rgb(255, 255, 249);
+  font-family: 'Luxurious Roman', cursive;
+}
+.box{
+  background-color: rgb(63, 61, 61);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.gedung{
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.gedung:hover{
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+.gedungtulisan{
+  font-size: 40px;
+  font-family: sans-serif;
+  display: flex;
+  margin-bottom: 20px;
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.gedungtulisan2{
+  font-size: 40px;
+  font-family: sans-serif;
+  display: flex;
+  margin-bottom: 20px;
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.gedungtulisan3{
+  font-size: 40px;
+  font-family: sans-serif;
+  display: flex;
+  margin-bottom: 20px;
+  color: white;
+  margin-left: 70px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.gedungtulisan:hover{
+  transform: scale(1.05);
+  color: rgb(110, 108, 108);
+}
+.gedungtulisan2:hover{
+  transform: scale(1.05);
+  color: rgb(110, 108, 108);
+}
+.gedungtulisan3:hover{
+  transform: scale(1.05);
+  color: rgb(110, 108, 108);
+}
+.kotak4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 35px;
+}
+.kotak4judul{
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Secular One', sans-serif;
+}
+.box2{
+  background-color: rgb(63, 61, 61);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.logo1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 45vh;
+  transition: 0.5s;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo1 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo1 div ion-icon{
+  color: white;
+  height: 70px;
+  width: 70px;
+}
+.logo2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vh;
+  transition: 0.5s;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.logo2 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo2 div ion-icon{
+  color: white;
+  height: 70px;
+  width: 70px;
+}
+.logo3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vh;
+  transition: 0.5s;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.rpl{
+  transition: 0.5s;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  margin-top: 10px;
+}
+.rpl:hover{
+  transform: scale(1.15);
+  color: yellow;
+}
+.hotel{
+  transition: 0.5s;
+  background-color: black;
+  margin-top: 10px;
+}
+.hotel:hover{
+  transform: scale(1.15);
+  color: rgb(255, 0, 255);
+}
+.akutansi{
+  transition: 0.5s;
+  background-color: black;
+  padding: 3px;
+  margin-top: 10px;
+}
+.akutansi:hover{
+  transform: scale(1.15);
+  color: rgb(131, 75, 2);
+}
+
+.logo3 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo3 div ion-icon{
+  color: white;
+  height: 70px;
+  width: 70px;
+}
+.logojudul{
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+.logotulisan{
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  padding: 30px;
+}
+
+.penutup{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+}
+.kotak5{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  padding: 60px;
+  margin: 35px;
+}
+.kotak5judul{
+  font-size: 35px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Secular One', sans-serif;
+  margin-left: 15px;
+ }
+ .box3{
+   display: flex;
+   justify-content: space-around;
+ }
+ .alamat{
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 0px;
+  width: 90vh;
+ }
+ .isialamat{
+   margin-top: 30px;
+   font-size: 20px;
+ }
+ .fb{
+   font-size: 40px;
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 40px;
+   margin-left: 20px;
+   transition: 0.5s;
+ }
+ .fb:hover{
+   background-color: rgb(37, 37, 248);
+   color: white;
+ }
+ .ig{
+   font-size: 40px;
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 40px;
+   margin-left: 20px;
+   transition: 0.5s;
+ }
+ .ig:hover{
+  background-color: rgb(207, 104, 7);
+  color: rgb(255, 255, 255);
+}
+ .yt{
+   font-size: 40px;
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 40px;
+   margin-left: 20px;
+   transition: 0.5s;
+ }
+ .yt:hover{
+  background-color: red;
+  color: rgb(255, 255, 255);
+ }
+ .tw{
+   font-size: 40px;
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 40px;
+   margin-left: 20px;
+   transition: 0.5s;
+ }
+ .tw:hover{
+  background-color: rgb(0, 195, 255);
+  color: rgb(255, 255, 255);
+ }
